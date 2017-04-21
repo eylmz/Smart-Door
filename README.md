@@ -4,7 +4,7 @@
 
 #### Sinyal Ekleme
 ``` 
-http://www.webdetay.me/Api/Add/{rss}/{name}/{frequency}/{date?}/{type?}
+http://webdetay.me/Api/Add/{rss}/{name}/{frequency}/{date?}/{type?}
 ```
 **{rss}:** varchar(255)<br/>
 **{name}:** varchar(255)<br/>
@@ -14,5 +14,5 @@ http://www.webdetay.me/Api/Add/{rss}/{name}/{frequency}/{date?}/{type?}
 
 #### Tüm Sinyaller
 ``` 
-http://www.webdetay.me/Api/
+http://webdetay.me/Api/
 ```
