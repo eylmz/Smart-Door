@@ -1,18 +1,18 @@
-## Akıllı Kapı (Laravel)
+## Smart Door (Laravel 5.4)
 
-### Web Servis
+### Web Services
 
-#### Sinyal Ekleme
+#### Add Signal
 ``` 
-http://webdetay.me/Api/Add/{rss}/{name}/{frequency}/{date?}/{type?}
+http://localhost/Api/Add/{rss}/{name}/{frequency}/{date?}/{type?}
 ```
 **{rss}:** varchar(255)<br/>
 **{name}:** varchar(255)<br/>
 **{frequency}:** ([0-9]+)<br/>
-**{date}:** 2017-04-21 09:52:53 // Boş bırakırsanız ya da null girerseniz o anki tarih<br/>
-**{type}:** **0** (Wi-fi) ya da **1** (Beacon) // Boş bırakırsanız 0
+**{date}:** 2017-04-21 09:52:53 // **Default Value :** Current Date<br/>
+**{type}:** **0** (Wi-fi) ya da **1** (Beacon) // **Default value** 0
 
-#### Tüm Sinyaller
+#### All Signals
 ``` 
-http://webdetay.me/Api/
+http://localhost/Api/
 ```
